@@ -1,8 +1,7 @@
 # How to use
 
-## Pull on fresh machine
-1. Clone repo inside home user directory
+Clone on fresh machine
 `cd ~ && git clone https://github.com/codekote/.vim.git`
 
-2. It's done
-
+Fetch updates from repo
+`cd ~/.vim && git fetch https://github.com/codekote/.vim.git`
