@@ -8,3 +8,6 @@ Fetch updates from repo
 
 Push local updates to repo
 `cd ~/.vim && git add . && git commit -m "auto message" && git push`
+
+Fix colors in `screen` if you use them
+`echo 'term screen-256color' > .screenrc`
