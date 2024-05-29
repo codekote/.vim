@@ -6,8 +6,13 @@ filetype off
 
 " Turn on syntax highlighting.
 syntax on
+set autoindent
 set tabstop=4
-set expandtab
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+
+set listchars=tab:>-,trail:-,eol:$ list
 
 " Highlight matching search patterns
 set hlsearch
