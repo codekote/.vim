@@ -1,4 +1,4 @@
-set number
+"set number
 set encoding=utf-8
 
 "Helps force plug-ins to load correctly when it is turned back on below.
@@ -22,5 +22,5 @@ set incsearch
 set ignorecase
 " Include only uppercase words with uppercase search term
 set smartcase
-
+set cursorline
 colorscheme onedark
